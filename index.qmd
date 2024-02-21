@@ -14,7 +14,7 @@ This is my first time creating a website with Quarto.
 
 Let's add some plot
 
-``` r
-install.packages("tidyverse")
+```{r}
+library(tidyverse)
 glimpse(mtcars)
 ```
