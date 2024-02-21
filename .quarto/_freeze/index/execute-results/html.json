@@ -1,8 +1,8 @@
 {
-  "hash": "834ccb056ed10c7b0ce953f38b7d8178",
+  "hash": "29bfa6ee8ec9ec57524827750470a2f7",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"quarto_website\"\n---\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\nThis is my first time creating a website with Quarto.\n",
+    "markdown": "---\ntitle: \"quarto_website\"\n---\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\nThis is my first time creating a website with Quarto.\n\nLet's add some plot\n\n``` r\ninstall.packages(\"tidyverse\")\n```\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
