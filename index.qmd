@@ -11,3 +11,9 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 ```
 
 This is my first time creating a website with Quarto.
+
+Let's add some plot
+
+``` r
+install.packages("tidyverse")
+```
