@@ -16,4 +16,5 @@ Let's add some plot
 
 ``` r
 install.packages("tidyverse")
+glimpse(mtcars)
 ```
