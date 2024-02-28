@@ -15,6 +15,7 @@ This is my first time creating a website with Quarto.
 Let's add some plot
 
 ```{r}
+#| message: false
 library(tidyverse)
 glimpse(mtcars)
 ```
