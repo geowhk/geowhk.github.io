@@ -13,7 +13,7 @@ website:
 format:
   html:
     theme: simplex
-    css: simplex.css
+    css: styles.css
     toc: true
 
 editor: visual
