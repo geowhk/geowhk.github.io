@@ -12,8 +12,7 @@ website:
 
 format:
   html:
-    theme: simplex
-    css: bootstrap.min.css
+    theme: superhero
     toc: true
 
 editor: visual
