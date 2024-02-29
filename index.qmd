@@ -1,0 +1,14 @@
+---
+title: "Woohyung Kim"
+about:
+  template: broadside
+  links: 
+    - icon: envelope
+      text: Email
+      href: mailto:whk3423@gmail.com
+    - icon: github
+      text: Github
+      href: http://github.com/geowhk
+---
+
+.
