@@ -1,11 +1,20 @@
 ---
-title: "geowhk.github.io"
+title: "Welcome to my website!"
+about:
+  template: broadside
+  links: 
+    - icon: envelope
+      text: Email
+      href: mailto:whk3423@gmail.com
+    - icon: github
+      text: Github
+      href: http://github.com/geowhk
 ---
 
-This is a Quarto website.
+Hello! I'm Woohyung Kim, a Geography Education graduate student at Seoul National University. My academic journey is just beginning, and through this blog, I aim to share the unfolding story of my research and discoveries in Spatial Data Science.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+With a love for travel and a keen interest in learning about diverse cultures, my goal is to weave my explorations into my studies, enriching our collective understanding of the world's geographical fabric.
 
-```{r}
-1 + 1
-```
+This space is more than just a repository of knowledge; it's a platform for dialogue. Whether you're a fellow geography enthusiast or simply curious, your insights and comments are warmly welcomed. Together, let's navigate the complex, beautiful world of Spatial Data Science.
+
+I'm always welcome for any conversation and advice, so feel free to reach out via email or connect with me on GitHub.
