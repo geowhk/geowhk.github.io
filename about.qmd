@@ -1,9 +1,32 @@
 ---
 title: "About"
+toc: false
+about:
+  template: jolla
+  image: me.jpg
+  image-width: 15em
+  image-shape: rounded
+  links: 
+    - icon: envelope
+      text: Email
+      href: mailto:whk3423@gmail.com
+    - icon: github
+      text: Github
+      href: http://github.com/geowhk
+format:
+  html:
+    css: custom-styles.css
 ---
 
-About this site
+## Woohyung Kim
 
-```{r}
-1 + 1
-```
+## Education
+
+-   B.A., 2024, Department of Geography Education, Seoul National University
+
+## Experience
+
+-   **Teaching Assistant**, *Cartography*, Spring Semester 2024
+    -   Served as the lab instructor for QGIS exercises, guiding students through the practical application of cartographic principles in digital mapping.
+-   **Teaching Assistant**, *Designing Human and Social Education Contents for AI Convergence Education*, Spring Semester 2024
+    -   Served as the lab instructor for R exercises, guiding teachers in basic data analysis with R
