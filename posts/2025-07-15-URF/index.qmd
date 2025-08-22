@@ -1,0 +1,36 @@
+---
+title: "Unsupervised Random Forest and Proximity Matrix"
+description: "description"
+author:
+  - name: Woohyung Kim
+    url: https://geowhk.github.io/
+    affiliation: GIS Lab, Department of Geography Education at Seoul National University
+    affiliation-url: https://geoedu.snu.ac.kr/ 
+date: 07-03-2024
+categories: [R, Machine Learning] # self-defined categories
+citation: 
+  url: https://geowhk.github.io/posts/2025-07-15-URF/ 
+image: preview-image.png
+draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+bibliography: references.bib
+---
+
+분류에 사용되는 의사결정나무는 최대 깊이까지 자라나기 때문에 리프 노드의 크기가 매우 작을수 있다. 따라서 의미 있는 proximity 값을 얻기 위해서는 가지치기(tree pruning)이 필요하다. 데이터의 특성에 따라 최적의 하이퍼파라미터 조합은 달라질 수 있음. MURF(Modified URF) 제안[@kruber2018]
+
+트리의 리프 노드만을 보는 것이 아닌 트리에서의 관측 개체의 경로를 통해 계산하는 Path Proximity를 제안.[@kruber2019]
+
+관측 개체 간 안정적인 proximity 계산을 위해서는 충분한 크기의 트리 개수가 필요하다. 단순히 리프 노드만을 고려하는 것이 아니라 트리의 구조를 반영하는 proximity 계산이 필요하다. 그래서 관측개체 $i$와 $j$가 위치한 리프 노드의 거리를 기반으로 proximity를 계산하는 방식을 제안한다.[@englund2012]
+
+일반적인 URF를 통한 Proximity Matrix 계산에 대해 언급하고 있지만, 파라미터 세팅에 대한 언급 X[@afanador2016]
+
+Identification of Yeast Transcriptional Regulation Networks를 위한 PAM clustering에 random forest proximity를 사용[@xiao2009]
+
+일반적인 URF를 통한 Proximity Matrix를 계산. 파라미터 세팅에 대해서는 트리의 개수가 충분하다면, default 세팅으로도 좋은 결과를 얻을 수 있다고 언급. 원격 탐사 데이터의 이상치 탐지[@zhang2008]에 적용.[@peerbhay2015]
+
+일반적인 URF를 통한 Proximity Matrix 계산과 Local Moran's I를 결합하여 라이다 데이터에서 이상치를 탐지하는 연구를 수행했다. 하지만 Proximity 계산을 위한 파라미터 설정 등에 대하여서는 논하지 않았다.[@peerbhay2016]
+
+유클리드 거리는 변수의 개수가 늘어날수록(=고차원 공간일수록) 차원의 저주 때문에 잘 작동하지 않음. 랜덤 포레스트는 고차원 공간에서도 의미 있는 변수간 거리값을 측정할 수 있음. [@breiman2001]에 따르면, synthetic data를 가지고 만든 binary classification tree가 성공적으로 진짜와 가짜를 분류한다면, 이를 통해 만들어진 proximity matrix는 의미 있음.[@wu2007]
+
+= proximity matrix 계산에 사용된 랜덤 포레스트의 예측 정확도 측정?
+
+outlier detection에 사용. optimization에 대한 언급 x[@zhang2006]

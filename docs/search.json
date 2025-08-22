@@ -18,7 +18,7 @@
     "href": "posts.html",
     "title": "Blog",
     "section": "",
-    "text": "Exploratory Spatial Analysis of Regional Total Fertility Rates in South Korea: Part 1\n\n\n\nR\n\n\nMachine Learning\n\n\nSpatial Analysis\n\n\n\nUsing Geographically Weighted Regression and Geographical Random Forests\n\n\n\nWoohyung Kim\n\n\nJul 3, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Idea for Master’s Thesis\n\n\n\nGNN\n\nLLM\n\n\n\ndescription\n\n\n\nWoohyung Kim\n\n\nAug 22, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2024-07-03-first-blog/index.html",
@@ -46,6 +46,41 @@
     "href": "about.html#experience",
     "title": "About",
     "section": "Experience",
-    "text": "Experience\n\nTeaching Assistant, Cartography, Spring Semester 2024\n\nServed as the lab instructor for QGIS exercises, guiding students through the practical application of cartographic principles in digital mapping.\n\nTeaching Assistant, Designing Human and Social Education Contents for AI Convergence Education, Spring Semester 2024\n\nServed as the lab instructor for R exercises, guiding teachers in basic data analysis with R"
+    "text": "Experience\n\nTeaching Assistant, Cartography, Spring Semester 2024\n\nServed as the lab instructor for QGIS exercises, guiding students through the practical application of cartographic principles in digital mapping.\n\nTeaching Assistant, Designing Human and Social Education Contents for AI Convergence Education, Spring Semester 2024\n\nServed as the lab instructor for R exercises, guiding teachers in basic data analysis with R.\n\nTeaching Assistant, AI and Digital Competency Enhancement Workshop for Pre-service Social Studies Teachers, Summer 2024\n\nLed a 5-day practical training on data collection, analysis, visualization, and dashboard development using R and Quarto."
+  },
+  {
+    "objectID": "posts/2025-07-15 URF/index.html",
+    "href": "posts/2025-07-15 URF/index.html",
+    "title": "Hyperparameter Optimization for Unsupervised Random Forests",
+    "section": "",
+    "text": "Hi\n\n\n\nCitationBibTeX citation:@online{kim2024,\n  author = {Kim, Woohyung},\n  title = {Hyperparameter {Optimization} for {Unsupervised} {Random}\n    {Forests}},\n  date = {2024-07-03},\n  url = {https://geowhk.github.io/posts/2024-07-03-first-blog/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKim, Woohyung. 2024. “Hyperparameter Optimization for Unsupervised\nRandom Forests.” July 3, 2024. https://geowhk.github.io/posts/2024-07-03-first-blog/."
+  },
+  {
+    "objectID": "posts/2025-08-22-proposal/index.html",
+    "href": "posts/2025-08-22-proposal/index.html",
+    "title": "Idea for Master’s Thesis",
+    "section": "",
+    "text": "LLM은 근본적으로 텍스트 모델이기 때문에 단어와 문장의 순차적인 배열(시퀀스, sequence)를 처리하기 위해 설계된 언어 모델이다. 따라서 여러 노드와 엣지로 복잡하게 구성된 공간 상호작용 데이터를 잘 이해하지 못한다.\n\n(Tang et al., 2024)은 논문의 주제를 분류하는 과제에서 (a) 논문의 내용만 줬을 때, (b) 논문 내용과 인용 관계(그래프 구조)를 글로 풀어서 설명해 줬을 때, 그리고 (c) 그래프를 LLM과 결합한 GraphGPT를 사용했을 때의 성능을 비교함\n(a)는 잘못된 답을 내놨고, (b)는 입력 토큰 길이가 매우 길어졌으며 역시 부정확한 답을 내놓음.\nLLM이 그래프 구조를 텍스트로 이해하는 데에는 심각한 비효율성과 부정확성이 있음을 확인.\n\n연구를 통해 LLM이 공간적 상호작용 데이터를 정확하게 이해하고, 관련된 사용자의 질문에 정확하게 답변할 수 있도록 만든다.\n궁극적으로, 지금 ChatGPT나 Gemini가 이미지나 pdf를 이해하는 것처럼, 공간적 상호작용 그래프를 input으로 넣었을 때, 그것을 이해하고 관련된 질문에 답을 할 수 있게 만들 수 있다.\n만약 구글이 개발한 Population Dynamic Foundation Model처럼, 공간적 상호작용 데이터가 매우 방대한 규모로 연구된 “Spatial Interaction Foundation Model”이 있다면 이 연구에서 아이디어를 얻어 세상의 다양한 공간적 상호작용과 관련된 질의응답이 가능한 챗봇을 만들 수 있을 것이다."
+  },
+  {
+    "objectID": "posts/2025-08-22-proposal/index.html#연구-주제-선정의-이유",
+    "href": "posts/2025-08-22-proposal/index.html#연구-주제-선정의-이유",
+    "title": "Idea for Master’s Thesis",
+    "section": "",
+    "text": "LLM은 근본적으로 텍스트 모델이기 때문에 단어와 문장의 순차적인 배열(시퀀스, sequence)를 처리하기 위해 설계된 언어 모델이다. 따라서 여러 노드와 엣지로 복잡하게 구성된 공간 상호작용 데이터를 잘 이해하지 못한다.\n\n(Tang et al., 2024)은 논문의 주제를 분류하는 과제에서 (a) 논문의 내용만 줬을 때, (b) 논문 내용과 인용 관계(그래프 구조)를 글로 풀어서 설명해 줬을 때, 그리고 (c) 그래프를 LLM과 결합한 GraphGPT를 사용했을 때의 성능을 비교함\n(a)는 잘못된 답을 내놨고, (b)는 입력 토큰 길이가 매우 길어졌으며 역시 부정확한 답을 내놓음.\nLLM이 그래프 구조를 텍스트로 이해하는 데에는 심각한 비효율성과 부정확성이 있음을 확인.\n\n연구를 통해 LLM이 공간적 상호작용 데이터를 정확하게 이해하고, 관련된 사용자의 질문에 정확하게 답변할 수 있도록 만든다.\n궁극적으로, 지금 ChatGPT나 Gemini가 이미지나 pdf를 이해하는 것처럼, 공간적 상호작용 그래프를 input으로 넣었을 때, 그것을 이해하고 관련된 질문에 답을 할 수 있게 만들 수 있다.\n만약 구글이 개발한 Population Dynamic Foundation Model처럼, 공간적 상호작용 데이터가 매우 방대한 규모로 연구된 “Spatial Interaction Foundation Model”이 있다면 이 연구에서 아이디어를 얻어 세상의 다양한 공간적 상호작용과 관련된 질의응답이 가능한 챗봇을 만들 수 있을 것이다."
+  },
+  {
+    "objectID": "posts/2025-08-22-proposal/index.html#gnn과-llm-결합의-이유",
+    "href": "posts/2025-08-22-proposal/index.html#gnn과-llm-결합의-이유",
+    "title": "Idea for Master’s Thesis",
+    "section": "GNN과 LLM 결합의 이유",
+    "text": "GNN과 LLM 결합의 이유\n\nGNN만 썼을 때에 비해 나은 점\n\n공간적 상호작용 데이터에 대한 자연어 질문과 자연어 답변이 가능해짐\n공간적 상호작용 그래프 자체 뿐만 아니라 LLM에 사전학습된 정보까지 활용한 답변이 가능함\n\n\n\nLLM만 썼을 때에 비해 나은 점\n\n확장성: 거대한 상호작용 네트워크를 말로 설명하는 것은 매우 어려운데, GNN은 임베딩 벡터로 이 정보를 효율적으로 압축하여 LLM의 input으로 넣을 수 있음.\n구조적 추론과 암묵적 패턴 발견 가능: GNN을 통해 발견한 네트워크 상의 역할, 패턴을 LLM이 답변에 활용할 수 있음."
+  },
+  {
+    "objectID": "posts/2025-08-22-proposal/index.html#text2gis랑-다른-점은",
+    "href": "posts/2025-08-22-proposal/index.html#text2gis랑-다른-점은",
+    "title": "Idea for Master’s Thesis",
+    "section": "Text2GIS랑 다른 점은?",
+    "text": "Text2GIS랑 다른 점은?\n\nText2GIS: 자연어 → LLM(SQL 쿼리 생성) → DB(실행) → 시각화\n상호작용 LLM: 그래프 → GNN 인코딩 → 어댑터 → LLM → 예측"
   }
 ]

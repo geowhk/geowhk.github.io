@@ -29,4 +29,6 @@ format:
 -   **Teaching Assistant**, *Cartography*, Spring Semester 2024
     -   Served as the lab instructor for QGIS exercises, guiding students through the practical application of cartographic principles in digital mapping.
 -   **Teaching Assistant**, *Designing Human and Social Education Contents for AI Convergence Education*, Spring Semester 2024
-    -   Served as the lab instructor for R exercises, guiding teachers in basic data analysis with R
+    -   Served as the lab instructor for R exercises, guiding teachers in basic data analysis with R.
+-   Teaching Assistant, *AI and Digital Competency Enhancement Workshop for Pre-service Social Studies Teachers*, Summer 2024
+    -   Led a 5-day practical training on data collection, analysis, visualization, and dashboard development using R and Quarto.
