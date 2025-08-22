@@ -10,7 +10,7 @@ date: last-modified
 categories: [GNN, LLM] # self-defined categories
 citation: 
   url: https://geowhk.github.io/posts/2025-08-22-proposal/ 
-image: preview-image.png
+image: thumbnail.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 bibliography: references.bib
 ---
