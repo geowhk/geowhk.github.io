@@ -1,0 +1,57 @@
+---
+title: "PhD Listup"
+description: "Professor and their papers list"
+author:
+  - name: Woohyung Kim
+    url: https://geowhk.github.io/
+    affiliation: GIS Lab, Department of Geography Education at Seoul National University
+    affiliation-url: https://snu-gislab.github.io/homepage/
+date: last-modified
+categories: [Study Abroad] # self-defined categories
+citation: 
+  url: https://geowhk.github.io/posts/2025-08-22-proposal/ 
+# image: thumbnail.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+# bibliography: references.bib
+bibliography: references.bib
+---
+
+# 1. [Gengchen Mai](https://sites.utexas.edu/seai/)(UT Austin)
+
+#### 🎯 Core Research Alignment
+
+#### 📚 Key Paper(s) Analyzed
+
+1.  GeoFM: How Will Geo-Foundation Models Reshape Spatial Data Science and GeoAI? (2025, IJGIS) [@janowicz2025]
+
+2.  TorchSpatial: A Location Encoding Framework and Benchmark for Spatial Representation Learning (2024, NeurlPS) [@wu2024]
+
+3.  SRL: Towards a General-Purpose Framework for Spatial Representation Learning (2024, SIGSPATIAL) [@mai2024]
+
+4.  GeoLLM: Extracting Geospatial Knowledge from Large Language Models (2024, ICLR) [@manvi2023]
+
+5.  On the Opportunities and Challenges of Foundation Models for GeoAI (Vision Paper) (2024, TSAS) [@mai2024a]
+
+6.  Towards a Foundation Model for Geospatial Artificial Intelligence (2022, SIGSPATIAL) [@mai2022]
+
+7.  Geographic Question Answering: Challenges, Uniqueness, Classification, and Future Directions (2021, AGILE) [@mai2021]
+
+8.  SE-KGE: A Location-Aware Knowledge Graph Embedding Model for Geographic Question Answering and Spatial Semantic Lifting (2020, TGIS) [@mai2020]
+
+# 2. [Song Gao](https://geography.wisc.edu/geods/research) (UW Madison)
+
+# 3. [Somayeh Dodge](https://move.geog.ucsb.edu/) (UCSB)
+
+# 4. [Shaowen Wang](https://cybergis.illinois.edu/) (UIUC)
+
+# 5. [Yao-Yi Chiang](https://knowledge-computing.github.io/) (Minnesota)
+
+# 6. [Yingjie Hu](https://geoai.geog.buffalo.edu/) (SUNY Buffalo)
+
+#### 🎯 Core Research Alignment
+
+#### 📚 Key Paper(s) Analyzed
+
+1.  Geo-knowledge-guided GPT models improve the extraction of location descriptions from disaster-related social media messages (2023, IJGIS)
+
+# 7. [Zhenlong Li](https://giscience.psu.edu/) (Penn state)
