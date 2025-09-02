@@ -4,7 +4,28 @@
     "href": "posts.html",
     "title": "Blog",
     "section": "",
-    "text": "PhD Listup\n\n\n\nStudy Abroad\n\n\n\nProfessor and their papers list\n\n\n\nWoohyung Kim\n\n\nSep 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nIdea for Master’s Thesis\n\n\n\nGNN\n\nLLM\n\n\n\ndescription\n\n\n\nWoohyung Kim\n\n\nSep 1, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Idea for Master’s Thesis\n\n\n\nGNN\n\nLLM\n\n\n\ndescription\n\n\n\nWoohyung Kim\n\n\nSep 1, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\nB.A., 2024, Department of Geography Education, Seoul National University"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\n\nTeaching Assistant, Cartography, Spring Semester 2024\n\nServed as the lab instructor for QGIS exercises, guiding students through the practical application of cartographic principles in digital mapping.\n\nTeaching Assistant, Designing Human and Social Education Contents for AI Convergence Education, Spring Semester 2024\n\nServed as the lab instructor for R exercises, guiding teachers in basic data analysis with R.\n\nTeaching Assistant, AI and Digital Competency Enhancement Workshop for Pre-service Social Studies Teachers, Summer 2024\n\nLed a 5-day practical training on data collection, analysis, visualization, and dashboard development using R and Quarto."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to my website!",
+    "section": "",
+    "text": "Hello! I’m Woohyung Kim, a Geography Education graduate student at Seoul National University. My academic journey is just beginning, and through this blog, I aim to share my research and discoveries in Spatial Data Science."
   },
   {
     "objectID": "posts/2025-08-22-proposal/index.html",
@@ -33,33 +54,5 @@
     "title": "Idea for Master’s Thesis",
     "section": "Text2GIS랑 다른 점은?",
     "text": "Text2GIS랑 다른 점은?\n\nText2GIS: 자연어 → LLM(SQL 쿼리 생성) → DB(실행) → 시각화\n상호작용 LLM: 그래프 → GNN 인코딩 → 어댑터 → LLM → 예측"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to my website!",
-    "section": "",
-    "text": "Hello! I’m Woohyung Kim, a Geography Education graduate student at Seoul National University. My academic journey is just beginning, and through this blog, I aim to share my research and discoveries in Spatial Data Science."
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About",
-    "section": "Education",
-    "text": "Education\n\nB.A., 2024, Department of Geography Education, Seoul National University"
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "About",
-    "section": "Experience",
-    "text": "Experience\n\nTeaching Assistant, Cartography, Spring Semester 2024\n\nServed as the lab instructor for QGIS exercises, guiding students through the practical application of cartographic principles in digital mapping.\n\nTeaching Assistant, Designing Human and Social Education Contents for AI Convergence Education, Spring Semester 2024\n\nServed as the lab instructor for R exercises, guiding teachers in basic data analysis with R.\n\nTeaching Assistant, AI and Digital Competency Enhancement Workshop for Pre-service Social Studies Teachers, Summer 2024\n\nLed a 5-day practical training on data collection, analysis, visualization, and dashboard development using R and Quarto."
-  },
-  {
-    "objectID": "posts/2025-9-1-listup/index.html",
-    "href": "posts/2025-9-1-listup/index.html",
-    "title": "PhD Listup",
-    "section": "",
-    "text": "1. Gengchen Mai(UT Austin)\n\n🎯 Core Research Alignment\n\n\n📚 Key Paper(s) Analyzed\n\nGeoFM: How Will Geo-Foundation Models Reshape Spatial Data Science and GeoAI? (2025, IJGIS) (Janowicz et al., 2025)\nTorchSpatial: A Location Encoding Framework and Benchmark for Spatial Representation Learning (2024, NeurlPS) (Wu et al., 2024)\nSRL: Towards a General-Purpose Framework for Spatial Representation Learning (2024, SIGSPATIAL) (Mai, Yao, et al., 2024)\nGeoLLM: Extracting Geospatial Knowledge from Large Language Models (2024, ICLR) (Manvi et al., 2023)\nOn the Opportunities and Challenges of Foundation Models for GeoAI (Vision Paper) (2024, TSAS) (Mai, Huang, et al., 2024)\nTowards a Foundation Model for Geospatial Artificial Intelligence (2022, SIGSPATIAL) (Mai et al., 2022)\nGeographic Question Answering: Challenges, Uniqueness, Classification, and Future Directions (2021, AGILE) (Mai et al., 2021)\nSE-KGE: A Location-Aware Knowledge Graph Embedding Model for Geographic Question Answering and Spatial Semantic Lifting (2020, TGIS) (Mai et al., 2020)\n\n\n\n\n2. Song Gao (UW Madison)\n\n\n3. Somayeh Dodge (UCSB)\n\n\n4. Shaowen Wang (UIUC)\n\n\n5. Yao-Yi Chiang (Minnesota)\n\n\n6. Yingjie Hu (SUNY Buffalo)\n\n🎯 Core Research Alignment\n\n\n📚 Key Paper(s) Analyzed\n\nGeo-knowledge-guided GPT models improve the extraction of location descriptions from disaster-related social media messages (2023, IJGIS)\n\n\n\n\n\n\n\n\n\n\n7. Zhenlong Li (Penn state)\n\nJanowicz, K., Mai, G., Huang, W., Zhu, R., Lao, N., & Cai, L. (2025). GeoFM: How will geo-foundation models reshape spatial data science and GeoAI? International Journal of Geographical Information Science, 39(9), 1849–1865. https://doi.org/10.1080/13658816.2025.2543038\n\n\nMai, G., Cundy, C., Choi, K., Hu, Y., Lao, N., & Ermon, S. (2022). Towards a foundation model for geospatial artificial intelligence (vision paper). 14. https://doi.org/10.1145/3557915.3561043\n\n\nMai, G., Huang, W., Sun, J., Song, S., Mishra, D., Liu, N., Gao, S., Liu, T., Cong, G., Hu, Y., Cundy, C., Li, Z., Zhu, R., & Lao, N. (2024). On the opportunities and challenges of foundation models for GeoAI (vision paper). ACM Trans. Spatial Algorithms Syst., 10(2), 11:111:46. https://doi.org/10.1145/3653070\n\n\nMai, G., Janowicz, K., Cai, L., Zhu, R., Regalia, B., Yan, B., Shi, M., & Lao, N. (2020). SE-KGE : A location-aware Knowledge Graph Embedding model for Geographic Question Answering and Spatial Semantic Lifting. Transactions in GIS, 24(3), 623–655. https://doi.org/10.1111/tgis.12629\n\n\nMai, G., Janowicz, K., Zhu, R., Cai, L., & Lao, N. (2021). Geographic Question Answering: Challenges, Uniqueness, Classification, and Future Directions. AGILE: GIScience Series, 2, 1–21. https://doi.org/10.5194/agile-giss-2-8-2021\n\n\nMai, G., Yao, X., Xie, Y., Rao, J., Li, H., Zhu, Q., Li, Z., & Lao, N. (2024). SRL: Towards a general-purpose framework for spatial representation learning. Proceedings of the 32nd ACM International Conference on Advances in Geographic Information Systems, 465468. https://doi.org/10.1145/3678717.3691246\n\n\nManvi, R., Khanna, S., Mai, G., Burke, M., Lobell, D. B., & Ermon, S. (2023, October 13). The Twelfth International Conference on Learning Representations. https://openreview.net/forum?id=TqL2xBwXP3\n\n\nWu, N., Cao, Q., Wang, Z., Liu, Z., Qi, Y., Zhang, J., Ni, J., Yao, X. A., Ma, H., Mu, L., Ermon, S., Ganu, T., Nambi, A., Lao, N., & Mai, G. (2024). TorchSpatial: A Location Encoding Framework and Benchmark for Spatial Representation Learning. Proceedings of NeurIPS 2024 Datasets and Benchmarks Track. https://openreview.net/forum?id=DERtzUdhkk#discussion\n\nCitationBibTeX citation:@online{kim2025,\n  author = {Kim, Woohyung},\n  title = {PhD {Listup}},\n  date = {2025-09-01},\n  url = {https://geowhk.github.io/posts/2025-08-22-proposal/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKim, Woohyung. 2025. “PhD Listup.” September 1, 2025. https://geowhk.github.io/posts/2025-08-22-proposal/."
   }
 ]
