@@ -25,28 +25,14 @@
     "href": "index.html",
     "title": "Woohyung Kim",
     "section": "",
-    "text": "Human mobility and spatial data science\n\n\n\n\nI study urban human mobility: where people travel, how flows vary across space, and what mobility models miss.\n\nMy work uses spatial interaction models and machine learning to examine geographic variation in prediction, bias in mobility data, and accessibility. I am also interested in how geographic knowledge can inform emerging AI systems.\n\nResearch Curriculum vitae GitHub\n\n\n\n\n\nCurrent profile\n\nEducation M.A. in Geography Education\nSeoul National University, 2026\nLocation Seoul, South Korea\nEmail whk3423@gmail.com"
+    "text": "Human mobility and spatial data science\n\n\n\n\nI study urban human mobility, with particular interest in spatial interaction, geographic variation in model performance, and bias in mobility data.\n\n\nResearch Curriculum vitae GitHub"
   },
   {
-    "objectID": "index.html#research-focus",
-    "href": "index.html#research-focus",
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
     "title": "Woohyung Kim",
-    "section": "Research focus",
-    "text": "Research focus\n\n\n\n01\n\n\nUrban mobility\nOD flows, destination choice, activity patterns, and travel behavior.\n\n\n\n\n02\n\n\nModel geography\nSpatial dependence, geographic context, and uneven model error across places.\n\n\n\n\n03\n\n\nData and accessibility\nRepresentation bias in mobility data and its consequences for accessibility analysis.\n\n\n\n\n04\n\n\nGeographic representations\nTesting whether learned representations encode spatial structure that remains useful in downstream geographic analysis."
-  },
-  {
-    "objectID": "index.html#recent-work",
-    "href": "index.html#recent-work",
-    "title": "Woohyung Kim",
-    "section": "Recent work",
-    "text": "Recent work\n\n\n\nMaster’s thesis, 2026\n\n\nEvaluating LLM representations for spatial interaction\nMy master’s thesis tested whether frozen Llama 3 representations of Seoul place names and centroid coordinates could reproduce hourly origin-destination flows.\nCoordinate prompts encoded geographic distance more clearly, but that internal signal did not yield better flow estimates. Gravity-based baselines remained stronger.\nRead the project summary\nView the reproducibility archive\n\n\n\n\n\n\nLayer-wise alignment between representation-space and geographic distances."
-  },
-  {
-    "objectID": "index.html#presentation",
-    "href": "index.html#presentation",
-    "title": "Woohyung Kim",
-    "section": "Presentation",
-    "text": "Presentation\n\n18 March 2026\nProbing the Geographic Reasoning of Large Language Models for Human Mobility Analysis\nOral presentation, AAG Annual Meeting, GeoAI and Deep Learning Symposium, San Francisco\n\n\nEmail · CV · GitHub"
+    "section": "Selected work",
+    "text": "Selected work\n\n\n\nMaster’s thesis · Seoul National University · 2026\n\n\nEvaluating the Capacity of Large Language Model Representations to Capture Spatial Interaction Structure\nResearch summary · Code and reproducibility notes\n\n\n\n\nOral presentation · AAG Annual Meeting · 18 March 2026\n\n\nProbing the Geographic Reasoning of Large Language Models for Human Mobility Analysis\nGeoAI and Deep Learning Symposium, San Francisco\n\n\n\n\nSeoul, South Korea · whk3423@gmail.com"
   },
   {
     "objectID": "research.html",
