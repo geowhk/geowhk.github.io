@@ -1,34 +1,26 @@
 ---
 title: "About"
-toc: false
-about:
-  template: jolla
-  image: me.jpg
-  image-width: 15em
-  image-shape: rounded
-  links: 
-    - icon: envelope
-      text: Email
-      href: mailto:whk3423@gmail.com
-    - icon: github
-      text: Github
-      href: http://github.com/geowhk
-format:
-  html:
-    css: custom-styles.css
+pagetitle: "About | Woohyung Kim"
+description: "Academic background and research approach of Woohyung Kim."
+page-layout: article
 ---
 
-## Woohyung Kim
+I completed an M.A. in Geography Education and an integrated major in Applied Data Science at Seoul National University in 2026. My master's research examined whether large language model representations could reproduce spatial interaction in Seoul mobility flows.
+
+I approach machine learning as a tool for geographic questions. I am most interested in models that account for spatial context, uneven performance across places, and bias in mobility data.
 
 ## Education
 
--   B.A., 2024, Department of Geography Education, Seoul National University
+**Seoul National University** · Seoul, South Korea  
+M.A. in Geography Education, 2026  
+Integrated Major in Applied Data Science
 
-## Experience
+**Seoul National University** · Seoul, South Korea  
+B.A. in Geography Education, 2024 · *cum laude*  
+Secondary Teacher Certification in Geography
 
--   **Teaching Assistant**, *Cartography*, Spring Semester 2024
-    -   Served as the lab instructor for QGIS exercises, guiding students through the practical application of cartographic principles in digital mapping.
--   **Teaching Assistant**, *Designing Human and Social Education Contents for AI Convergence Education*, Spring Semester 2024
-    -   Served as the lab instructor for R exercises, guiding teachers in basic data analysis with R.
--   Teaching Assistant, *AI and Digital Competency Enhancement Workshop for Pre-service Social Studies Teachers*, Summer 2024
-    -   Led a 5-day practical training on data collection, analysis, visualization, and dashboard development using R and Quarto.
+## Contact
+
+Email: [whk3423@gmail.com](mailto:whk3423@gmail.com)  
+GitHub: [github.com/geowhk](https://github.com/geowhk)  
+Curriculum vitae: [Download PDF](files/Woohyung_Kim_CV.pdf)

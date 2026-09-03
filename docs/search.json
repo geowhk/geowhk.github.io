@@ -1,58 +1,79 @@
 [
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Blog",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Idea for Master’s Thesis\n\n\n\nGNN\n\nLLM\n\n\n\ndescription\n\n\n\nWoohyung Kim\n\n\nSep 1, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "I completed an M.A. in Geography Education and an integrated major in Applied Data Science at Seoul National University in 2026. My master’s research examined whether large language model representations could reproduce spatial interaction in Seoul mobility flows.\nI approach machine learning as a tool for geographic questions. I am most interested in models that account for spatial context, uneven performance across places, and bias in mobility data."
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About",
     "section": "Education",
-    "text": "Education\n\nB.A., 2024, Department of Geography Education, Seoul National University"
+    "text": "Education\nSeoul National University · Seoul, South Korea\nM.A. in Geography Education, 2026\nIntegrated Major in Applied Data Science\nSeoul National University · Seoul, South Korea\nB.A. in Geography Education, 2024 · cum laude\nSecondary Teacher Certification in Geography"
   },
   {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
     "title": "About",
-    "section": "Experience",
-    "text": "Experience\n\nTeaching Assistant, Cartography, Spring Semester 2024\n\nServed as the lab instructor for QGIS exercises, guiding students through the practical application of cartographic principles in digital mapping.\n\nTeaching Assistant, Designing Human and Social Education Contents for AI Convergence Education, Spring Semester 2024\n\nServed as the lab instructor for R exercises, guiding teachers in basic data analysis with R.\n\nTeaching Assistant, AI and Digital Competency Enhancement Workshop for Pre-service Social Studies Teachers, Summer 2024\n\nLed a 5-day practical training on data collection, analysis, visualization, and dashboard development using R and Quarto."
+    "section": "Contact",
+    "text": "Contact\nEmail: whk3423@gmail.com\nGitHub: github.com/geowhk\nCurriculum vitae: Download PDF"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to my website!",
+    "title": "Woohyung Kim",
     "section": "",
-    "text": "Hello! I’m Woohyung Kim, a Geography Education graduate student at Seoul National University. My academic journey is just beginning, and through this blog, I aim to share my research and discoveries in Spatial Data Science."
+    "text": "Human mobility and spatial data science\n\n\n\n\nI study urban human mobility: where people travel, how flows vary across space, and what mobility models miss.\n\nMy work uses spatial interaction models and machine learning to examine geographic variation in prediction, bias in mobility data, and accessibility. I am also interested in how geographic knowledge can inform emerging AI systems.\n\nResearch Curriculum vitae GitHub\n\n\n\n\n\nCurrent profile\n\nEducation M.A. in Geography Education\nSeoul National University, 2026\nLocation Seoul, South Korea\nEmail whk3423@gmail.com"
   },
   {
-    "objectID": "posts/2025-08-22-proposal/index.html",
-    "href": "posts/2025-08-22-proposal/index.html",
-    "title": "Idea for Master’s Thesis",
+    "objectID": "index.html#research-focus",
+    "href": "index.html#research-focus",
+    "title": "Woohyung Kim",
+    "section": "Research focus",
+    "text": "Research focus\n\n\n\n01\n\n\nUrban mobility\nOD flows, destination choice, activity patterns, and travel behavior.\n\n\n\n\n02\n\n\nModel geography\nSpatial dependence, geographic context, and uneven model error across places.\n\n\n\n\n03\n\n\nData and accessibility\nRepresentation bias in mobility data and its consequences for accessibility analysis.\n\n\n\n\n04\n\n\nGeographic representations\nTesting whether learned representations encode spatial structure that remains useful in downstream geographic analysis."
+  },
+  {
+    "objectID": "index.html#recent-work",
+    "href": "index.html#recent-work",
+    "title": "Woohyung Kim",
+    "section": "Recent work",
+    "text": "Recent work\n\n\n\nMaster’s thesis, 2026\n\n\nEvaluating LLM representations for spatial interaction\nMy master’s thesis tested whether frozen Llama 3 representations of Seoul place names and centroid coordinates could reproduce hourly origin-destination flows.\nCoordinate prompts encoded geographic distance more clearly, but that internal signal did not yield better flow estimates. Gravity-based baselines remained stronger.\nRead the project summary\nView the reproducibility archive\n\n\n\n\n\n\nLayer-wise alignment between representation-space and geographic distances."
+  },
+  {
+    "objectID": "index.html#presentation",
+    "href": "index.html#presentation",
+    "title": "Woohyung Kim",
+    "section": "Presentation",
+    "text": "Presentation\n\n18 March 2026\nProbing the Geographic Reasoning of Large Language Models for Human Mobility Analysis\nOral presentation, AAG Annual Meeting, GeoAI and Deep Learning Symposium, San Francisco\n\n\nEmail · CV · GitHub"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "LLM은 근본적으로 텍스트 모델이기 때문에 단어와 문장의 순차적인 배열(시퀀스, sequence)를 처리하기 위해 설계된 언어 모델이다. 따라서 여러 노드와 엣지로 복잡하게 구성된 공간 상호작용 데이터를 잘 이해하지 못한다.\n\n(Tang et al., 2024)은 논문의 주제를 분류하는 과제에서 (a) 논문의 내용만 줬을 때, (b) 논문 내용과 인용 관계(그래프 구조)를 글로 풀어서 설명해 줬을 때, 그리고 (c) 그래프를 LLM과 결합한 GraphGPT를 사용했을 때의 성능을 비교함\n(a)는 잘못된 답을 내놨고, (b)는 입력 토큰 길이가 매우 길어졌으며 역시 부정확한 답을 내놓음.\nLLM이 그래프 구조를 텍스트로 이해하는 데에는 심각한 비효율성과 부정확성이 있음을 확인.\n\n연구를 통해 LLM이 공간적 상호작용 데이터를 정확하게 이해하고, 관련된 사용자의 질문에 정확하게 답변할 수 있도록 만든다.\n궁극적으로, 지금 ChatGPT나 Gemini가 이미지나 pdf를 이해하는 것처럼, 공간적 상호작용 그래프를 input으로 넣었을 때, 그것을 이해하고 관련된 질문에 답을 할 수 있게 만들 수 있다.\n만약 구글이 개발한 Population Dynamic Foundation Model처럼, 공간적 상호작용 데이터가 매우 방대한 규모로 연구된 “Spatial Interaction Foundation Model”이 있다면 이 연구에서 아이디어를 얻어 세상의 다양한 공간적 상호작용과 관련된 질의응답이 가능한 챗봇을 만들 수 있을 것이다."
+    "text": "I focus on urban human mobility. The questions that interest me concern origin-destination flows, destination choice, spatially uneven model error, and the limits of passively collected movement data."
   },
   {
-    "objectID": "posts/2025-08-22-proposal/index.html#연구-주제-선정의-이유",
-    "href": "posts/2025-08-22-proposal/index.html#연구-주제-선정의-이유",
-    "title": "Idea for Master’s Thesis",
-    "section": "",
-    "text": "LLM은 근본적으로 텍스트 모델이기 때문에 단어와 문장의 순차적인 배열(시퀀스, sequence)를 처리하기 위해 설계된 언어 모델이다. 따라서 여러 노드와 엣지로 복잡하게 구성된 공간 상호작용 데이터를 잘 이해하지 못한다.\n\n(Tang et al., 2024)은 논문의 주제를 분류하는 과제에서 (a) 논문의 내용만 줬을 때, (b) 논문 내용과 인용 관계(그래프 구조)를 글로 풀어서 설명해 줬을 때, 그리고 (c) 그래프를 LLM과 결합한 GraphGPT를 사용했을 때의 성능을 비교함\n(a)는 잘못된 답을 내놨고, (b)는 입력 토큰 길이가 매우 길어졌으며 역시 부정확한 답을 내놓음.\nLLM이 그래프 구조를 텍스트로 이해하는 데에는 심각한 비효율성과 부정확성이 있음을 확인.\n\n연구를 통해 LLM이 공간적 상호작용 데이터를 정확하게 이해하고, 관련된 사용자의 질문에 정확하게 답변할 수 있도록 만든다.\n궁극적으로, 지금 ChatGPT나 Gemini가 이미지나 pdf를 이해하는 것처럼, 공간적 상호작용 그래프를 input으로 넣었을 때, 그것을 이해하고 관련된 질문에 답을 할 수 있게 만들 수 있다.\n만약 구글이 개발한 Population Dynamic Foundation Model처럼, 공간적 상호작용 데이터가 매우 방대한 규모로 연구된 “Spatial Interaction Foundation Model”이 있다면 이 연구에서 아이디어를 얻어 세상의 다양한 공간적 상호작용과 관련된 질의응답이 가능한 챗봇을 만들 수 있을 것이다."
+    "objectID": "research.html#current-questions",
+    "href": "research.html#current-questions",
+    "title": "Research",
+    "section": "Current questions",
+    "text": "Current questions\n\nHow should geographic context enter mobility models?\nI am interested in models that account for spatial interaction and dependence instead of treating observations as independent or space as homogeneous. This includes research on OD flows, trajectories, activity patterns, destination choice, and travel behavior.\n\n\nWhere do models transfer, and where do they fail?\nAggregate performance can hide large differences across neighborhoods, cities, populations, and data sources. I want to study this variation directly, both as a modeling problem and as a question about which geographic relationships transfer.\n\n\nWhose mobility is poorly represented?\nMobility datasets differ in coverage and measurement quality. I am interested in how those differences affect accessibility estimates and conclusions about vulnerable populations.\n\n\nWhat geographic information do learned representations retain?\nMy recent work examined this question in a large language model. I remain interested in geographic representation learning and in foundation, generative, or agentic systems when they bear on mobility questions and can be evaluated against spatial evidence."
   },
   {
-    "objectID": "posts/2025-08-22-proposal/index.html#gnn과-llm-결합의-이유",
-    "href": "posts/2025-08-22-proposal/index.html#gnn과-llm-결합의-이유",
-    "title": "Idea for Master’s Thesis",
-    "section": "GNN과 LLM 결합의 이유",
-    "text": "GNN과 LLM 결합의 이유\n\nGNN만 썼을 때에 비해 나은 점\n\n공간적 상호작용 데이터에 대한 자연어 질문과 자연어 답변이 가능해짐\n공간적 상호작용 그래프 자체 뿐만 아니라 LLM에 사전학습된 정보까지 활용한 답변이 가능함\n\n\n\nLLM만 썼을 때에 비해 나은 점\n\n확장성: 거대한 상호작용 네트워크를 말로 설명하는 것은 매우 어려운데, GNN은 임베딩 벡터로 이 정보를 효율적으로 압축하여 LLM의 input으로 넣을 수 있음.\n구조적 추론과 암묵적 패턴 발견 가능: GNN을 통해 발견한 네트워크 상의 역할, 패턴을 LLM이 답변에 활용할 수 있음."
+    "objectID": "research.html#masters-thesis",
+    "href": "research.html#masters-thesis",
+    "title": "Research",
+    "section": "Master’s thesis",
+    "text": "Master’s thesis\nEvaluating the Capacity of Large Language Model Representations to Capture Spatial Interaction Structure: A Case Study Using Seoul Living Mobility Data\nM.A. thesis, Seoul National University, August 2026\nAdvisor: Prof. Sang-Il Lee\nThe thesis tested whether representations extracted from a frozen Llama 3 model could capture and reproduce urban spatial interaction. I used hourly weekday OD flows within Seoul and compared prompts containing place names with prompts containing centroid coordinates.\nThe analysis asked two separate questions. First, could a linear readout reproduce held-out flow magnitudes and spatial patterns? Second, did the representations encode distance, origin and destination roles, flow magnitude, or geographic distance structure across model layers?\nCoordinate prompts showed much stronger internal signals for distance and geographic alignment. Neither prompt condition, however, consistently matched structural baselines such as a gravity model in flow estimation. This gap between detectable information inside a model and useful information for geographic prediction now guides my work on representation evaluation.\n\n\n\nLayer-wise alignment between representation-space and geographic distances.\n\n\nCode, configurations, aggregate results, and reproducibility notes"
   },
   {
-    "objectID": "posts/2025-08-22-proposal/index.html#text2gis랑-다른-점은",
-    "href": "posts/2025-08-22-proposal/index.html#text2gis랑-다른-점은",
-    "title": "Idea for Master’s Thesis",
-    "section": "Text2GIS랑 다른 점은?",
-    "text": "Text2GIS랑 다른 점은?\n\nText2GIS: 자연어 → LLM(SQL 쿼리 생성) → DB(실행) → 시각화\n상호작용 LLM: 그래프 → GNN 인코딩 → 어댑터 → LLM → 예측"
+    "objectID": "research.html#conference-presentation",
+    "href": "research.html#conference-presentation",
+    "title": "Research",
+    "section": "Conference presentation",
+    "text": "Conference presentation\nProbing the Geographic Reasoning of Large Language Models for Human Mobility Analysis\nOral presentation at the 2026 Annual Meeting of the American Association of Geographers, San Francisco, California, 18 March 2026.\nSession: GeoAI and Deep Learning Symposium: AI and Machine Learning Application in Human Mobility Analysis"
   }
 ]

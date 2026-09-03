@@ -1,14 +1,125 @@
 ---
-title: "Welcome to my website!"
-about:
-  template: broadside
-  links: 
-    - icon: envelope
-      text: Email
-      href: mailto:whk3423@gmail.com
-    - icon: github
-      text: Github
-      href: http://github.com/geowhk
+pagetitle: "Woohyung Kim | Human Mobility and Spatial Data Science"
+description: "Research in human mobility, spatial interaction, spatial data science, and GeoAI."
+title-block-banner: false
 ---
 
-Hello! I'm Woohyung Kim, a Geography Education graduate student at Seoul National University. My academic journey is just beginning, and through this blog, I aim to share my research and discoveries in Spatial Data Science.
+:::: {.profile-header}
+::: {.profile-main}
+<p class="field-note">Human mobility and spatial data science</p>
+
+# Woohyung Kim
+
+<p class="lead">I study urban human mobility: where people travel, how flows vary across space, and what mobility models miss.</p>
+
+My work uses spatial interaction models and machine learning to examine geographic variation in prediction, bias in mobility data, and accessibility. I am also interested in how geographic knowledge can inform emerging AI systems.
+
+::: {.text-links}
+[Research](research.qmd)
+[Curriculum vitae](files/Woohyung_Kim_CV.pdf)
+[GitHub](https://github.com/geowhk)
+:::
+:::
+
+::: {.profile-meta}
+<p class="meta-label">Current profile</p>
+
+<span>Education</span>
+M.A. in Geography Education  
+Seoul National University, 2026
+
+<span>Location</span>
+Seoul, South Korea
+
+<span>Email</span>
+[whk3423@gmail.com](mailto:whk3423@gmail.com)
+:::
+::::
+
+:::::: {.content-shell}
+## Research focus
+
+::::: {.research-list}
+:::: {.research-item}
+::: {.item-number}
+01
+:::
+
+::: {.item-copy}
+### Urban mobility
+
+OD flows, destination choice, activity patterns, and travel behavior.
+:::
+::::
+
+:::: {.research-item}
+::: {.item-number}
+02
+:::
+
+::: {.item-copy}
+### Model geography
+
+Spatial dependence, geographic context, and uneven model error across places.
+:::
+::::
+
+:::: {.research-item}
+::: {.item-number}
+03
+:::
+
+::: {.item-copy}
+### Data and accessibility
+
+Representation bias in mobility data and its consequences for accessibility analysis.
+:::
+::::
+
+:::: {.research-item}
+::: {.item-number}
+04
+:::
+
+::: {.item-copy}
+### Geographic representations
+
+Testing whether learned representations encode spatial structure that remains useful in downstream geographic analysis.
+:::
+::::
+:::::
+
+## Recent work
+
+:::: {.research-plate}
+::: {.plate-copy}
+<p class="work-type">Master's thesis, 2026</p>
+
+### Evaluating LLM representations for spatial interaction
+
+My master's thesis tested whether frozen Llama 3 representations of Seoul place names and centroid coordinates could reproduce hourly origin-destination flows.
+
+Coordinate prompts encoded geographic distance more clearly, but that internal signal did not yield better flow estimates. Gravity-based baselines remained stronger.
+
+[Read the project summary](research.qmd#masters-thesis)  
+[View the reproducibility archive](https://github.com/geowhk/llm-human-mobility)
+:::
+
+::: {.plate-figure}
+![Layer-wise alignment between representation-space and geographic distances.](images/geographic_alignment.png){fig-alt="Line chart showing much stronger geographic alignment for coordinate-based representations than name-based representations across LLM layers."}
+:::
+::::
+
+## Presentation
+
+::: {.presentation-record}
+<span>18 March 2026</span>
+
+**Probing the Geographic Reasoning of Large Language Models for Human Mobility Analysis**  
+Oral presentation, AAG Annual Meeting, GeoAI and Deep Learning Symposium, San Francisco
+:::
+
+::: {.contact-line}
+[Email](mailto:whk3423@gmail.com) · [CV](files/Woohyung_Kim_CV.pdf) · [GitHub](https://github.com/geowhk)
+:::
+::::::

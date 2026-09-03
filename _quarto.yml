@@ -1,23 +1,50 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
+    - research.qmd
+    - about.qmd
+  resources:
+    - files/
+    - images/
 
 website:
+  title: "Woohyung Kim"
+  site-url: https://geowhk.github.io
+  description: "Woohyung Kim — human mobility, spatial data science, and GeoAI"
   navbar:
-    title: "{{< fa face-smile >}} Woohyung Kim"
+    pinned: true
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - posts.qmd
+      - href: research.qmd
+        text: Research
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/geowhk
+        aria-label: GitHub
+      - href: files/Woohyung_Kim_CV.pdf
+        text: CV
+  page-footer:
+    left: "© 2026 Woohyung Kim"
+    right:
+      - text: "Email"
+        href: mailto:whk3423@gmail.com
+      - text: "GitHub"
+        href: https://github.com/geowhk
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
     page-layout: full
-    fontsize: 1.2em
+    smooth-scroll: true
+    link-external-newwindow: true
+    fontsize: 1.05em
     citation-style: _resources/apa.csl
 
 editor: visual
