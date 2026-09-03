@@ -104,6 +104,13 @@ button:focus-visible {
   line-height: 1.42;
 }
 
+.research-summary {
+  max-width: 700px;
+  margin-bottom: 0;
+  color: #3e4947;
+  font-size: 1.04rem;
+}
+
 .text-links {
   display: flex;
   flex-wrap: wrap;
