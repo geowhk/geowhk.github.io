@@ -19,19 +19,5 @@
     "title": "About",
     "section": "Contact",
     "text": "Contact\nEmail: whk3423@gmail.com\nGitHub: github.com/geowhk\nCurriculum vitae: Download PDF"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Woohyung Kim",
-    "section": "",
-    "text": "Human mobility and spatial data science\n\n\n\n\nI develop methods for spatial analysis and study how people move between places.\n\n\nI use machine learning to measure how places resemble one another and to model the flows that connect them. I examine where mobility predictions fail and whose travel the underlying data capture.\n\n\nCurriculum vitae GitHub"
-  },
-  {
-    "objectID": "index.html#selected-work",
-    "href": "index.html#selected-work",
-    "title": "Woohyung Kim",
-    "section": "Selected work",
-    "text": "Selected work\n\n\n\nJournal article · Geographical Analysis · 2026\n\n\nML-SAS: A Machine-Learning-Based Spatial Autocorrelation Statistic for Mixed-Type Data\nI used machine learning to measure similarity between regions described by different types of attributes, then used those similarities to measure global and local spatial autocorrelation.\nWoohyung Kim and Sang-Il Lee. Geographical Analysis, 58(4), e70062.\nPaper (DOI) · R package · Reproduction code\n\n\n\n\nSubmitted manuscript · The Professional Geographer\n\n\nEvaluating frozen language-model representations for urban mobility prediction\nUsing hourly flows between Seoul’s 25 districts, I tested whether language-model representations of place and time improve a gravity model. They reduced average prediction error, but the combined model still overpredicted travel on several high-volume connections.\nThesis code\nRelated presentation at AAG 2026: Probing the Geographic Reasoning of Large Language Models for Human Mobility Analysis.\n\n\n\n\nSeoul, South Korea · whk3423@gmail.com"
   }
 ]

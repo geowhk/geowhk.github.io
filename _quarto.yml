@@ -2,9 +2,10 @@ project:
   type: website
   output-dir: docs
   render:
-    - index.qmd
     - about.qmd
   resources:
+    - index.html
+    - assets/
     - files/
     - images/
 
@@ -15,7 +16,7 @@ website:
   navbar:
     pinned: true
     left:
-      - href: index.qmd
+      - href: index.html
         text: Home
       - href: about.qmd
         text: About
