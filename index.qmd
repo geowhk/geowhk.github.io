@@ -14,7 +14,6 @@ title-block-banner: false
 <p class="research-summary">I use machine learning to measure how places resemble one another and to model the flows that connect them. I examine where mobility predictions fail and whose travel the underlying data capture.</p>
 
 ::: {.text-links}
-[Research](research.qmd)
 [Curriculum vitae](files/Woohyung_Kim_CV.pdf)
 [GitHub](https://github.com/geowhk)
 :::
@@ -33,7 +32,7 @@ I used machine learning to measure similarity between regions described by diffe
 
 Woohyung Kim and Sang-Il Lee. *Geographical Analysis*, 58(4), e70062.
 
-[Research summary](research.qmd#ml-sas) · [Paper (DOI)](https://doi.org/10.1111/gean.70062) · [R package](https://github.com/geowhk/ml-sas-r) · [Reproduction code](https://github.com/geowhk/ml-sas-paper)
+[Paper (DOI)](https://doi.org/10.1111/gean.70062) · [R package](https://github.com/geowhk/ml-sas-r) · [Reproduction code](https://github.com/geowhk/ml-sas-paper)
 :::
 
 ::: {.work-record}
@@ -43,7 +42,7 @@ Woohyung Kim and Sang-Il Lee. *Geographical Analysis*, 58(4), e70062.
 
 Using hourly flows between Seoul’s 25 districts, I tested whether language-model representations of place and time improve a gravity model. They reduced average prediction error, but the combined model still overpredicted travel on several high-volume connections.
 
-[Related master’s thesis](research.qmd#masters-thesis) · [Thesis code](https://github.com/geowhk/llm-human-mobility)
+[Thesis code](https://github.com/geowhk/llm-human-mobility)
 
 Related presentation at AAG 2026: *Probing the Geographic Reasoning of Large Language Models for Human Mobility Analysis*.
 :::

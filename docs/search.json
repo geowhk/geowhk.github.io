@@ -25,48 +25,13 @@
     "href": "index.html",
     "title": "Woohyung Kim",
     "section": "",
-    "text": "Human mobility and spatial data science\n\n\n\n\nI develop methods for spatial analysis and study how people move between places.\n\n\nI use machine learning to measure how places resemble one another and to model the flows that connect them. I examine where mobility predictions fail and whose travel the underlying data capture.\n\n\nResearch Curriculum vitae GitHub"
+    "text": "Human mobility and spatial data science\n\n\n\n\nI develop methods for spatial analysis and study how people move between places.\n\n\nI use machine learning to measure how places resemble one another and to model the flows that connect them. I examine where mobility predictions fail and whose travel the underlying data capture.\n\n\nCurriculum vitae GitHub"
   },
   {
     "objectID": "index.html#selected-work",
     "href": "index.html#selected-work",
     "title": "Woohyung Kim",
     "section": "Selected work",
-    "text": "Selected work\n\n\n\nJournal article · Geographical Analysis · 2026\n\n\nML-SAS: A Machine-Learning-Based Spatial Autocorrelation Statistic for Mixed-Type Data\nI used machine learning to measure similarity between regions described by different types of attributes, then used those similarities to measure global and local spatial autocorrelation.\nWoohyung Kim and Sang-Il Lee. Geographical Analysis, 58(4), e70062.\nResearch summary · Paper (DOI) · R package · Reproduction code\n\n\n\n\nSubmitted manuscript · The Professional Geographer\n\n\nEvaluating frozen language-model representations for urban mobility prediction\nUsing hourly flows between Seoul’s 25 districts, I tested whether language-model representations of place and time improve a gravity model. They reduced average prediction error, but the combined model still overpredicted travel on several high-volume connections.\nRelated master’s thesis · Thesis code\nRelated presentation at AAG 2026: Probing the Geographic Reasoning of Large Language Models for Human Mobility Analysis.\n\n\n\n\nSeoul, South Korea · whk3423@gmail.com"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "I focus on urban human mobility. The questions that interest me concern origin-destination flows, destination choice, spatially uneven model error, and the limits of passively collected movement data."
-  },
-  {
-    "objectID": "research.html#current-questions",
-    "href": "research.html#current-questions",
-    "title": "Research",
-    "section": "Current questions",
-    "text": "Current questions\n\nHow should geographic context enter mobility models?\nI am interested in models that account for spatial interaction and dependence instead of treating observations as independent or space as homogeneous. This includes research on OD flows, trajectories, activity patterns, destination choice, and travel behavior.\n\n\nWhere do models transfer, and where do they fail?\nAggregate performance can hide large differences across neighborhoods, cities, populations, and data sources. I want to study this variation directly, both as a modeling problem and as a question about which geographic relationships transfer.\n\n\nWhose mobility is poorly represented?\nMobility datasets differ in coverage and measurement quality. I am interested in how those differences affect accessibility estimates and conclusions about vulnerable populations.\n\n\nWhat geographic information do learned representations retain?\nMy recent work examined this question in a large language model. I remain interested in geographic representation learning and in foundation, generative, or agentic systems when they bear on mobility questions and can be evaluated against spatial evidence."
-  },
-  {
-    "objectID": "research.html#masters-thesis",
-    "href": "research.html#masters-thesis",
-    "title": "Research",
-    "section": "Master’s thesis",
-    "text": "Master’s thesis\nEvaluating the Capacity of Large Language Model Representations to Capture Spatial Interaction Structure: A Case Study Using Seoul Living Mobility Data\nM.A. thesis, Seoul National University, August 2026\nAdvisor: Prof. Sang-Il Lee\nThe thesis tested whether representations extracted from a frozen Llama 3 model could capture and reproduce urban spatial interaction. I used hourly weekday OD flows within Seoul and compared prompts containing place names with prompts containing centroid coordinates.\nThe analysis asked two separate questions. First, could a linear readout reproduce held-out flow magnitudes and spatial patterns? Second, did the representations encode distance, origin and destination roles, flow magnitude, or geographic distance structure across model layers?\nCoordinate prompts showed much stronger internal signals for distance and geographic alignment. Neither prompt condition, however, consistently matched structural baselines such as a gravity model in flow estimation. This gap between detectable information inside a model and useful information for geographic prediction now guides my work on representation evaluation.\n\n\n\nLayer-wise alignment between representation-space and geographic distances.\n\n\nCode, configurations, aggregate results, and reproducibility notes"
-  },
-  {
-    "objectID": "research.html#conference-presentation",
-    "href": "research.html#conference-presentation",
-    "title": "Research",
-    "section": "Conference presentation",
-    "text": "Conference presentation\nProbing the Geographic Reasoning of Large Language Models for Human Mobility Analysis\nOral presentation at the 2026 Annual Meeting of the American Association of Geographers, San Francisco, California, 18 March 2026.\nSession: GeoAI and Deep Learning Symposium: AI and Machine Learning Application in Human Mobility Analysis"
-  },
-  {
-    "objectID": "research.html#ml-sas",
-    "href": "research.html#ml-sas",
-    "title": "Research",
-    "section": "Journal article",
-    "text": "Journal article\nML-SAS: A Machine-Learning-Based Spatial Autocorrelation Statistic for Mixed-Type Data\nWoohyung Kim and Sang-Il Lee (2026)\nGeographical Analysis, 58(4), e70062\nPaper (DOI) · R package · Reproduction code"
+    "text": "Selected work\n\n\n\nJournal article · Geographical Analysis · 2026\n\n\nML-SAS: A Machine-Learning-Based Spatial Autocorrelation Statistic for Mixed-Type Data\nI used machine learning to measure similarity between regions described by different types of attributes, then used those similarities to measure global and local spatial autocorrelation.\nWoohyung Kim and Sang-Il Lee. Geographical Analysis, 58(4), e70062.\nPaper (DOI) · R package · Reproduction code\n\n\n\n\nSubmitted manuscript · The Professional Geographer\n\n\nEvaluating frozen language-model representations for urban mobility prediction\nUsing hourly flows between Seoul’s 25 districts, I tested whether language-model representations of place and time improve a gravity model. They reduced average prediction error, but the combined model still overpredicted travel on several high-volume connections.\nThesis code\nRelated presentation at AAG 2026: Probing the Geographic Reasoning of Large Language Models for Human Mobility Analysis.\n\n\n\n\nSeoul, South Korea · whk3423@gmail.com"
   }
 ]
