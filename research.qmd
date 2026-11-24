@@ -25,6 +25,14 @@ Mobility datasets differ in coverage and measurement quality. I am interested in
 
 My recent work examined this question in a large language model. I remain interested in geographic representation learning and in foundation, generative, or agentic systems when they bear on mobility questions and can be evaluated against spatial evidence.
 
+## Journal article {#ml-sas}
+
+**ML-SAS: A Machine-Learning-Based Spatial Autocorrelation Statistic for Mixed-Type Data**  
+Woohyung Kim and Sang-Il Lee (2026)  
+*Geographical Analysis*, 58(4), e70062
+
+[Paper (DOI)](https://doi.org/10.1111/gean.70062) · [R package](https://github.com/geowhk/ml-sas-r) · [Reproduction code](https://github.com/geowhk/ml-sas-paper)
+
 ## Master's thesis {#masters-thesis}
 
 **Evaluating the Capacity of Large Language Model Representations to Capture Spatial Interaction Structure: A Case Study Using Seoul Living Mobility Data**  
